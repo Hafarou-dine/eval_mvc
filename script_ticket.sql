@@ -12,11 +12,13 @@ create table article(
 	nom_article varchar(50),
 	prix_article float
 );
+
 create table ticket(
 	id_ticket int auto_increment primary key not null,
 	date_ticket date,
 	id_vendeur int
 );
+
 create table ajouter(
 	id_ticket int,
 	id_article int,
